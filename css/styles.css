@@ -1,0 +1,181 @@
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+#title {
+    background-image: linear-gradient(#ff4c68,#ef8172);
+    color: #fff;
+    padding-bottom: 5%;
+    text-align: left;
+}
+
+.container-fluid{
+    padding: 3% 15% 3%;
+}
+
+
+/* Navigation Bar*/
+.navbar {
+    padding-bottom: 0 0 20px 0;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*Heading*/ 
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/*Download Button*/
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/*Title Image*/
+.title-img {
+    transform: rotate(25deg);
+    max-width: 20%;
+    padding-top: 30px;
+    position: absolute;
+    right: 25%;
+}
+
+@media (max-width: 1028px){
+
+    #title {
+        text-align: center;
+    }
+    .title-img {
+        position: static;
+        padding-top: 60px;
+        transform: rotate(0);
+        max-width: 50%;
+    }
+}
+
+/*Features Sections*/
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    color: #474747;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 2rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials*/
+
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonials-img {
+    width: 20%;
+    border-radius: 100%;
+    margin: 30px 20px 20px 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 4%;
+}
+
+.press-img {
+    width: 13%;
+    margin: 20px 40px 15px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.carousel-item em {
+    display: block;
+    padding-top: 1%;
+}
+
+/* Pricing */ 
+
+#pricing {
+    padding: 100px;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 4% 2% 3% 2%;
+}
+
+/* CTA */
+
+#cta {
+    background-image: linear-gradient(to right, #ff4c68,#ef8172);
+    padding: 7% 15%;
+    color: #fff;
+}
+
+.download-cta {
+    margin: 0 2% 0 2%;
+}
+
+/*Footer*/
+
+#footer {
+    padding: 60px;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
